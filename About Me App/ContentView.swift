@@ -15,6 +15,7 @@ struct ContentView: View {
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
             Text("Hello, my name is jude!")
+                .foregroundColor(Color.purple)
             Button("Fun Fact About me!") {
                 showBio.toggle()
             }
